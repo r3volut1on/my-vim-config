@@ -1,2 +1,1 @@
 require("mkinzler")
-print("hello")
