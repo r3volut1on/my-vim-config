@@ -35,11 +35,14 @@ require("lazy").setup({
         {"mbbill/undotree" },
         {"tpope/vim-fugitive"}
     },
+    install = { colorscheme = {"tokyonight"} },
 
     -- Configure any other settings here. See the documentation for more details.
-    -- automatically check for plugin updates
+
     rocks = {
         enabled = false
     },
+
+    -- automatically check for plugin updates
     checker = { enabled = true },
 })
