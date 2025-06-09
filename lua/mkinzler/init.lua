@@ -4,5 +4,7 @@ require("mkinzler.autocommands")
 require("mkinzler.lazy")
 
 vim.lsp.enable({
-    "lua_ls"
+    "lua_ls",
+    "terraformls",
+    "basedpyright",
 })
