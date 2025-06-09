@@ -4,7 +4,12 @@ require("mkinzler.autocommands")
 require("mkinzler.lazy")
 
 vim.lsp.enable({
+    "basedpyright",
+    "bashls",
+    "dockerls",
+    "jsonls",
     "lua_ls",
     "terraformls",
-    "basedpyright",
+    "ts_ls",
+    "yamlls",
 })
