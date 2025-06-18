@@ -1,7 +1,7 @@
-require("mkinzler.options")
-require("mkinzler.keymaps")
-require("mkinzler.autocommands")
-require("mkinzler.lazy")
+require("config.options")
+require("config.keymaps")
+require("config.autocmds")
+require("config.lazy")
 
 vim.lsp.enable({
     "basedpyright",

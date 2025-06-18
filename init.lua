@@ -1,2 +1,1 @@
-require("mkinzler")
-
+require("config")
