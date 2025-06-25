@@ -4,6 +4,7 @@ require("config.autocmds")
 require("config.lazy")
 
 vim.lsp.enable({
+    "ansiblels",
     "basedpyright",
     "bashls",
     "dockerls",
