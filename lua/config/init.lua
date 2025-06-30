@@ -7,7 +7,6 @@ vim.lsp.enable({
     "ansiblels",
     "basedpyright",
     "bashls",
-    "dockerls",
     "jsonls",
     "lua_ls",
     "terraformls",
