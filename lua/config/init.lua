@@ -3,16 +3,16 @@ require("config.keymaps")
 require("config.autocmds")
 require("config.lazy")
 
-vim.lsp.enable({
-    "ansiblels",
-    "basedpyright",
-    "bashls",
-    "jsonls",
-    "lua_ls",
-    "terraformls",
-    "ts_ls",
-    "yamlls",
-})
+-- vim.lsp.enable({
+--     "ansiblels",
+--     "basedpyright",
+--     "bashls",
+--     "jsonls",
+--     "lua_ls",
+--     "terraformls",
+--     "ts_ls",
+--     "yamlls",
+-- })
 
 vim.diagnostic.config({
     underline = true,
